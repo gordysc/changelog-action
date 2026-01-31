@@ -15,7 +15,7 @@ Choose between two AI providers:
 
    ```bash
    mkdir -p .github/workflows
-   curl -o .github/workflows/changelog.yml https://raw.githubusercontent.com/YOUR_USERNAME/changelog-action/main/.github/anthropic.yml
+   curl -o .github/workflows/anthropic.yml https://raw.githubusercontent.com/YOUR_USERNAME/changelog-action/main/.github/anthropic.yml
    ```
 
 2. Add your API key as a repository secret:
@@ -30,7 +30,7 @@ Choose between two AI providers:
 
    ```bash
    mkdir -p .github/workflows
-   curl -o .github/workflows/changelog.yml https://raw.githubusercontent.com/YOUR_USERNAME/changelog-action/main/.github/openai.yml
+   curl -o .github/workflows/openai.yml https://raw.githubusercontent.com/YOUR_USERNAME/changelog-action/main/.github/openai.yml
    ```
 
 2. Add your API key as a repository secret:
