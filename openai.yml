@@ -82,7 +82,7 @@ jobs:
             --data-binary @- << EOF
           {
             "model": "gpt-5.2",
-            "max_tokens": 4096,
+            "max_completion_tokens": 4096,
             "messages": [{"role": "user", "content": $(echo "$FULL_PROMPT" | jq -Rs .)}]
           }
           EOF
