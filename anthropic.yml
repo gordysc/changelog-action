@@ -1,4 +1,4 @@
-name: Anthropic Changelog
+name: Changelog
 
 on:
   workflow_dispatch:

@@ -1,4 +1,4 @@
-name: OpenAI Changelog
+name: Changelog
 
 on:
   workflow_dispatch:
