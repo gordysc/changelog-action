@@ -110,7 +110,7 @@ jobs:
           cat CHANGELOG_GENERATED.md
 
       - name: Upload changelog as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: changelog-${{ inputs.start_date }}-to-${{ inputs.end_date }}
           path: CHANGELOG_GENERATED.md
